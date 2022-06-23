@@ -41,7 +41,7 @@ public class DBManager {
         Cursor cursor = writableDatabase.query("table1", null, null, null, null, null, null, null);
 
         int position = cursor.getPosition();
-        Log.e(TAG, "select: 游标默认位置：" + position);
+        //Log.e(TAG, "select: 游标默认位置：" + position);
 
         String result = "";
 
